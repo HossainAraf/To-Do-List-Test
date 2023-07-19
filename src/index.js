@@ -14,5 +14,4 @@ const list = [
     description: 'desc-2',
     completed: true,
   },
-]
-
+];

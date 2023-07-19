@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack server --open",
-    "bulid": "webpack"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +16,9 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.27.5",
+    "file-loader": "^6.2.0",
     "hint": "^2.0.0",
+    "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.3",
     "style-loader": "^3.3.3",
     "stylelint": "^13.13.1",

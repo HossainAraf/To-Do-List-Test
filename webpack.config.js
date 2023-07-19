@@ -16,7 +16,17 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
+        // type: 'asset/resource',
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192, // Specify the maximum file size to be inlined (in bytes)
+              fallback: 'file-loader', // Fallback to file-loader for larger files
+              outputPath: 'images', // Output path for the images
+            },
+          },
+        ],
       },
     ],
   },
