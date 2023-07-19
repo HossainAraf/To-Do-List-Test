@@ -2,6 +2,21 @@
   margin: 5%;
 }
 
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
 h1 {
   color: blue;
+}
+
+.fa-plus {
+  width: 20px;
+  height: 20px;
+}
+
+#down-icon {
+  width: 29px;
+  height: 20px;
 }
